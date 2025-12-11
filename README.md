@@ -61,53 +61,6 @@ A differentiable Cook–Torrance shader using:
 
 ---
 
-## 📁 Suggested Project Structure
-
-```
-.
-├── data/
-│   ├── reference_images/
-│   ├── meshes/
-│   ├── masks/
-│   └── textures/
-├── src/
-│   ├── camera_optimization.py
-│   ├── lighting_optimization.py
-│   ├── texture_optimization.py
-│   ├── shader.py
-│   ├── renderer.py
-│   └── utils.py
-├── results/
-├── thesis/
-│   └── mat-thesis-template.pdf
-└── README.md
-```
-
----
-
-## ▶️ Running the Code
-
-### **1. Install requirements**
-```bash
-pip install -r requirements.txt
-```
-
-### **2. Run the camera optimization**
-```bash
-python src/camera_optimization.py
-```
-
-### **3. Run lighting optimization**
-```bash
-python src/lighting_optimization.py
-```
-
-### **4. Reconstruct textures**
-```bash
-python src/texture_optimization.py
-```
-
----
 
 ## 📊 Key Results
 - Camera error: ~1.78% per pixel  
@@ -131,15 +84,6 @@ Textures reconstructed are physically meaningful and suitable for game developme
 - Multi-resolution texture refinement  
 - Neural BRDF or hybrid models  
 - Expanded multi-view datasets  
-
----
-
-## 📄 Thesis PDF
-The full thesis is included at:
-
-```
-/thesis/mat-thesis-template.pdf
-```
 
 ---
 
